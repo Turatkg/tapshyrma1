@@ -24,6 +24,12 @@ class _CounterScreenState extends State<CounterScreen> {
     });
   }
 
+  void _cementCount() {
+    setState(() {
+      count + 1;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
